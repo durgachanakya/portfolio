@@ -70,3 +70,34 @@ a{
     background-color: greenyellow;
     margin-right: 50px;
 }
+a {
+    text-decoration: none;
+    text-shadow: 2px 2px turquoise;
+}
+
+.article:hover {
+    color: crimson;
+}
+
+#inspiration a {
+    text-decoration: underline !important;
+    text-shadow: none !important;
+    color: chartreuse !important;
+}
+
+#contact {
+    background-color: aquamarine;
+}
+
+#contact iframe {
+    width: 100%;
+}
+
+.contact_1 h3 {
+    display: inline;
+}
+
+.contact_1 a {
+    text-shadow: none;
+    color: black;
+}
