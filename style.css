@@ -9,7 +9,8 @@ img{
 }
 h1{
   text-shadow: 2px 2px #2037c9;
-  font-size:30px
+  font-size:30px;
+  font-family:  'Train One', cursive;
 }
 p{
   font-size:20px;
@@ -41,4 +42,31 @@ html{
 }
 a{
     text-decoration: none;
+}
+#apps{
+    width: 120%;
+    height: 800px;
+    background-color: darkcyan;
+    margin-right: 50px;
+}
+#game{
+   width: 120%;
+    height: 800px;
+    background-color: blue;
+    margin-right: 50px;
+}
+#gameimg{
+    transition: transform .2s;
+    height: 500px;
+    width: 400px;
+    margin-right: 20px;
+}
+.gameimg: hover{
+    transform: scale(0.9)
+}
+#chat{
+   width: 120%;
+    height: 800px;
+    background-color: greenyellow;
+    margin-right: 50px;
 }
